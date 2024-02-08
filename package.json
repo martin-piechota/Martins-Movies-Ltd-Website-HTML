@@ -1,10 +1,11 @@
 {
-  "name": "martins-movies-ltd-website",
+  "name": "mml-website",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "description": "MML Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "author": "Martin Piechota",
+  "license": "ISC"
 }
