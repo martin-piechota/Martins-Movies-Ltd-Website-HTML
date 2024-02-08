@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Tax Calculator</title>
+        <script>
+            function Calculate(dailySalary, hours)
+            {
+                let result = (((dailySalary * 5) * 1.5) - (hours * (dailySalary / 3)));
+                document.getElementById("result").innerHTML = "They owe you " + result + "p";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Employee Tax Calculator</h1>
+
+        <p>Daily Salary</p>
+        <input id="daily" />
+
+        <p>Hours Worked</p>
+        <input id="hours" />
+
+        <button onclick="Calculate(document.getElementById('daily').value, document.getElementById('hours').value)">Calculate</button>
+
+        <p id="result">0p</p>
+
+        <p>(<i>s</i> * 1.5) - (<i>h</i> * (<i>s</i> / 3))</p>
+        <p>where:</p>
+        <ul>
+            <li>s = {weekly salary}</li>
+            <li>h = {hours worked that week}</li>
+        </ul>
+    </body>
+</html>
