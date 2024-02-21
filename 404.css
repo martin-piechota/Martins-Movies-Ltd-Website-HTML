@@ -1,4 +1,4 @@
-.not-found-container {
+.page-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,30 +6,29 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #000000;
 }
-.not-found-container1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+.page-text {
+  color: rgb(255, 255, 255);
+  font-size: 6em;
 }
-.not-found-text1 {
-  color: rgb(38, 38, 38);
-  font-size: 252px;
-  margin-top: -20px;
+.page-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 30em;
+  font-style: normal;
   font-weight: 900;
-  margin-bottom: -20px;
-  letter-spacing: -20px;
 }
-.not-found-container2 {
-  width: 421px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+.page-text2 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
 }
-.not-found-text2 {
-  text-align: center;
-  font-weight: 400;
+.page-navlink {
+  display: contents;
+}
+.page-text3 {
+  color: #8fc9ff;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: underline none;
 }
